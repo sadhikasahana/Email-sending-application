@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Email Sender Application</h1>
+        <form id="emailForm">
+            <input type="file" id="fileInput" accept=".csv" required />
+            <input type="email" id="emailInput" placeholder="Your Email" required />
+            <textarea id="promptInput" placeholder="Custom Prompt" required></textarea>
+            <input type="number" id="scheduleInput" placeholder="Schedule (in seconds)" min="1" required />
+            <button type="submit">Send Emails</button>
+        </form>
+        <div id="detectedColumns"></div> 
+        <div id="statusContainer">
+            <h2>Email Status</h2>
+            <table id="statusTable">
+                <thead>
+                    <tr>
+                        <th>Company Name</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                        <th>Delivery Status</th>
+                    </tr>
+                </thead>
+                <tbody id="statusTableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
