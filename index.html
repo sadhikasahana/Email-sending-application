@@ -14,6 +14,7 @@
             <input type="email" id="emailInput" placeholder="Your Email" required />
             <textarea id="promptInput" placeholder="Custom Prompt" required></textarea>
             <input type="number" id="scheduleInput" placeholder="Schedule (in seconds)" min="1" required />
+            <input type="number" id="throttleInput" placeholder="Throttle (emails per minute)" min="1" required />
             <button type="submit">Send Emails</button>
         </form>
         <div id="detectedColumns"></div> 
@@ -28,9 +29,21 @@
                         <th>Delivery Status</th>
                     </tr>
                 </thead>
-                <tbody id="statusTableBody">
-
-                </tbody>
+                <tbody id="statusTableBody"></tbody>
+            </table>
+        </div>
+        <div id="analyticsContainer"></div>
+        <div id="dashboardContainer">
+            <h2>Email Dashboard</h2>
+            <table id="dashboardTable">
+                <thead>
+                    <tr>
+                        <th>Recipient</th>
+                        <th>Status</th>
+                        <th>Delivery Status</th>
+                    </tr>
+                </thead>
+                <tbody id="dashboardTableBody"></tbody>
             </table>
         </div>
     </div>
