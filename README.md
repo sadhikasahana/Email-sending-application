@@ -39,17 +39,13 @@ This project is a custom email-sending application that allows users to send per
 
 4. Open your browser and go to http://localhost:3000.
 
-5. Upload a CSV file with the following columns:
-   Company Name
-   Email
+5. Upload a CSV file with the following columns: Company Name, Email
    
 6. Enter a customizable prompt in the provided input box (use placeholders like {Company Name}).
 
 7. Click on "Send Emails" to start sending personalized emails.
    
-8. View the real-time analytics on the dashboard which will display:
-   Total Emails Sent
-   Emails Pending
+8. View the real-time analytics on the dashboard which will display: Total Emails Sent, Emails Pending
 
 
 For any questions or inquiries, please reach out to me at sadhikasahana@gmail.com .  
