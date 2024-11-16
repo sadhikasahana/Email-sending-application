@@ -29,20 +29,27 @@ This project is a custom email-sending application that allows users to send per
    ```bash
    git clone https://github.com/sadhikasahana/Email-sending-application.git
    cd gmail-api-project
-2. Install the required packages:   
+2. Install the required packages:
+   ```bash
    npm install
-   
-3. Open your browser and go to http://localhost:3000.
 
-4. Upload a CSV file with the following columns:
+3. Start the server:
+   ```bash
+   npm start
+
+4. Open your browser and go to http://localhost:3000.
+
+5. Upload a CSV file with the following columns:
    Company Name
    Email
    
-5. Enter a customizable prompt in the provided input box (use placeholders like {Company Name}).
+6. Enter a customizable prompt in the provided input box (use placeholders like {Company Name}).
 
-6. Click on "Send Emails" to start sending personalized emails.
+7. Click on "Send Emails" to start sending personalized emails.
    
-7. View the real-time analytics on the dashboard.   
+8. View the real-time analytics on the dashboard which will display:
+   Total Emails Sent
+   Emails Pending
 
 
 For any questions or inquiries, please reach out to me at sadhikasahana@gmail.com .  
