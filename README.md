@@ -27,7 +27,7 @@ This project is a custom email-sending application that allows users to send per
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sadhikasahana/Email-sender-application.git
+   git clone https://github.com/sadhikasahana/Email-sending-application.git
    cd gmail-api-project
 2. Install the required packages:   
    npm install
